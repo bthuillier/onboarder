@@ -28,7 +28,6 @@ app.get('/', (request, response) => {
        },
        headers: { "Content-Type": "application/json" }
    };
-   You are nearly there!
    client.post("http://onboarder.cleverapps.io/play", args, function (data, response) {
      console.log(response);
    });
